@@ -1,0 +1,27 @@
+.partner {
+    margin-bottom: 120px;
+    .partner-list {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 70px 0;
+        .partner-item {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            padding: 0 50px;
+            transition: 0.25s;
+
+            &:hover {
+                opacity: 0.15;
+            }
+
+            .partner-logo {
+                margin: 0 auto;
+
+            }
+        }
+    }
+    
+}
+

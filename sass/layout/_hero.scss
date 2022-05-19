@@ -1,0 +1,43 @@
+.hero {
+    
+    position: relative;
+    margin-bottom: 120px;
+
+    &-image {
+        margin-left: auto;
+        max-width: 65%;
+    }
+
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translateY(-50%);
+        z-index: 2;
+       
+
+        .hero-caption {
+            color: $text-color;
+            font-size: 3.2rem;
+            line-height: 0;
+            font-weight: 600;
+        }
+
+        .hero-heading {
+            color: $text-color;
+            font-size: 7rem;
+            line-height: 0;
+            font-weight: 800;
+        }
+
+        .hero-link {
+            color: $gray-light;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    }
+
+
+
+
+}

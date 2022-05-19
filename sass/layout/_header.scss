@@ -2,11 +2,35 @@
     &-main {
         display:flex;
         justify-content: space-between;
-        margin-top:50px;
+        padding: 30px;
 
+        .header-logo {
+            display: inline-block;
+            height: 30px;
+            cursor: pointer;
+        }
         .header-navigation {
             display:flex;
-          
+            column-gap: 50px;
+            align-items: center;
+
+            .header-phone  {
+                font-family: $second-font;
+               font-weight: 400;
+            }
+            .header-phone span {
+                margin-left: 10px;
+                font-weight: 600;
+                font-family: $primary-font;
+            }
+
+
+            .icon-search, .icon-toggle {
+                color: black;
+                font-size: 1.2rem;
+        
+            }
+
         }
     }
 
