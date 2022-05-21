@@ -37,9 +37,28 @@ body {
     background-image: linear-gradient(to right, #f475a0, #feac3d);
 }
 
-.text-small {
+.text--small-14 {
     color: $gray-light;
     font-family: $primary-font;
     font-weight: 600;
     font-size: 14px;
+
+ 
+}
+.text--small-16 {
+    color: $gray-light;
+    font-family: $primary-font;
+    font-weight: 600;
+    font-size: 16px;
+}
+.text--small-18 {
+    color: $gray-light;
+    font-family: $primary-font;
+    font-weight: 300;
+    font-size: 18px;
+}
+.text--bold {
+    color: $text-color;
+    font-weight: 800;
+    font-family: $second-font;
 }
